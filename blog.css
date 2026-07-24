@@ -554,11 +554,18 @@ a { text-decoration: none; color: inherit; }
     background: linear-gradient(135deg, rgba(212,168,83,0.06) 0%, transparent 60%);
 }
 
-.product-emoji {
-    font-size: 3rem;
+.product-card-header img {
+    max-width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin: 0 auto var(--space-sm);
     display: block;
-    margin-bottom: var(--space-sm);
-    filter: drop-shadow(0 4px 12px rgba(212,168,83,0.3));
+    filter: drop-shadow(0 8px 16px rgba(0,0,0,0.4));
+    transition: transform var(--transition-base);
+}
+
+.product-card:hover .product-card-header img {
+    transform: scale(1.05) translateY(-5px);
 }
 
 .product-rank {
