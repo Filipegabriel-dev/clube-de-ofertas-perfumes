@@ -1,0 +1,8 @@
+{
+  "name": "clube-de-ofertas",
+  "version": "1.0.0",
+  "description": "Landing page - Clube de Ofertas de Perfumes",
+  "scripts": {
+    "dev": "npx -y serve ."
+  }
+}
