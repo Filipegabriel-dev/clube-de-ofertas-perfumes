@@ -1,7 +1,7 @@
 {
-  "name": "clube-de-ofertas",
+  "name": "o-cara-das-ofertas",
   "version": "1.0.0",
-  "description": "Landing page - Clube de Ofertas de Perfumes",
+  "description": "Landing page - O Cara das Ofertas",
   "scripts": {
     "dev": "npx -y serve ."
   }
